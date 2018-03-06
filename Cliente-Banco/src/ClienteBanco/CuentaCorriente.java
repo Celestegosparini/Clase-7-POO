@@ -44,8 +44,14 @@ public class CuentaCorriente {
     }
 
     public double extraer(double monto) {
-        saldo = saldo - monto;
-        return saldo;
+        if (saldo < monto){
+            saldo=0;
+            System.out.println ("Saldo insuficiente");
+              return this.saldo;
+        }   else {
+            System.out.println ("Saldo insuficiente");
+            return this.saldo - monto;
+        }   
     }
 
     @Override
