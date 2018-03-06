@@ -68,4 +68,11 @@ public class CuentaCorriente {
             return false;
         }
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 79 * hash + this.nroCuenta;
+        return hash;
+    }
 }
