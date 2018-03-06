@@ -36,6 +36,30 @@ public class CuentaCorriente {
    }
    
      public void Cuntacoriente (Cliente titular, int nroCuenta, double saldo){
+         
        
    }
+public double depositar (double saldo){
+return saldo;
+}
+public double extraer ( double saldo){
+    return saldo;
+}
+
+ @Override
+    public String toString(){
+        return ;
+    }
+
+ @Override
+public boolean eguals (Cliente){
+
+}
+
+
+
+
+
+
+
 }
