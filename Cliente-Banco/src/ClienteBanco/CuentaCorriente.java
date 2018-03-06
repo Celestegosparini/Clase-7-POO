@@ -54,13 +54,13 @@ public class CuentaCorriente {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (o == null || (o instanceof CuentaCorriente)) {
+    public boolean equals(Object cuenta) {
+        if (cuenta == null || (cuenta instanceof CuentaCorriente)) {
             return false;
         }
 
-        CuentaCorriente a = (CuentaCorriente) o;
-        if (a.getNroCuenta() == this.nroCuenta) {
+        CuentaCorriente otraCuenta = (CuentaCorriente)cuenta;
+        if (otraCuenta.getNroCuenta() == this.nroCuenta) {
             return true;
 
         }
