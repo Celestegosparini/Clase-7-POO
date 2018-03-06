@@ -30,15 +30,19 @@ public class CuentaCorriente {
         this.saldo = saldo;
     }
 
-    public void Cuntacoriente(Cliente titular, int nroCuenta) {
+    public void Cuentatacoriente(Cliente titular, int nroCuenta) {
+        this.titular = titular;
+        this.nroCuenta= nroCuenta;
 
     }
 
-    public void Cuntacoriente(Cliente titular, int nroCuenta, double saldo) {
-
+    public void Cuentacoriente(Cliente titular, int nroCuenta, double saldo) {
+        this.titular = titular;
+        this.nroCuenta= nroCuenta;
+        this.saldo =saldo;
     }
 
-    public double depositar(double monto) {
+    public double depositar(double monto){
         saldo = saldo + monto;
         return saldo;
     }
