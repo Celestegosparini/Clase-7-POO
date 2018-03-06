@@ -31,6 +31,11 @@ public class CuentaCorriente {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+   public void Cuntacoriente (Cliente titular, int nroCuenta){
+       
+   }
    
-    
+     public void Cuntacoriente (Cliente titular, int nroCuenta, double saldo){
+       
+   }
 }
