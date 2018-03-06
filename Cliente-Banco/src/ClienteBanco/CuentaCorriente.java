@@ -39,10 +39,12 @@ public class CuentaCorriente {
          
        
    }
-public double depositar (double saldo){
+public double depositar (double monto){
+    saldo = saldo + monto;
 return saldo;
 }
-public double extraer ( double saldo){
+public double extraer ( double monto){
+    saldo = saldo - monto;
     return saldo;
 }
 
