@@ -68,7 +68,7 @@ public class CuentaCorriente {
         if (cuenta == null ||   !(cuenta instanceof CuentaCorriente)) {
             return false;
         }
-
+//        boolean salida = false;
         CuentaCorriente otraCuenta = (CuentaCorriente)cuenta;
         if (otraCuenta.getNroCuenta() == this.nroCuenta) {
             return true;
