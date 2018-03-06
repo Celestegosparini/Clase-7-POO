@@ -30,8 +30,9 @@ public class Cliente {
         this.edad = edad;
     }
  
-    @Override
-    public String toString(){
-        return nombre + apellido + edad;
+     @Override
+    public String toString() {
+        return " Nombre : " + this.nombre + " Apellido : " +this.apellido + " Edad: " + this.edad;
     }
+  
 }
