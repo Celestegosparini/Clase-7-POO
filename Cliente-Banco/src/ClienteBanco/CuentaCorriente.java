@@ -65,7 +65,7 @@ public class CuentaCorriente {
 
     @Override
     public boolean equals(Object cuenta) {
-        if (cuenta == null || (cuenta instanceof CuentaCorriente)) {
+        if (cuenta == null ||   !(cuenta instanceof CuentaCorriente)) {
             return false;
         }
 
