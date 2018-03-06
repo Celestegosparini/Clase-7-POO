@@ -53,7 +53,7 @@ public class CuentaCorriente {
             System.out.println ("Saldo insuficiente");
               return this.saldo;
         }   else {
-            System.out.println ("Saldo insuficiente");
+            System.out.println ("Saldo restante");
             return this.saldo - monto;
         }   
     }
