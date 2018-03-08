@@ -32,7 +32,7 @@ public class Cliente {
  
      @Override
     public String toString() {
-        return " Nombre : " + this.nombre + " Apellido : " +this.apellido + " Edad: " + this.edad;
+        return " Nombre : "  + this.nombre + " Apellido : " + this.apellido + " Edad: " + this.edad;
     }
   
 }
