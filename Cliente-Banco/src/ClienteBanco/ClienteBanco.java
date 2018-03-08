@@ -4,7 +4,7 @@ public class ClienteBanco {
 
     public static void main(String[] args) {
         Cliente aliem = new Cliente();
-        aliem.setApellido("ET");
+        aliem.setApellido("ET Casa");
         aliem.setNombre("ET");
         aliem.setEdad(200);
         Cliente c1 = new Cliente();
@@ -35,8 +35,8 @@ public class ClienteBanco {
         System.out.println(ca2.toString());
         System.out.println(ca3.toString());
         System.out.println(ca4.toString());
-
-        if (cc1.equals(cc2)) {
+CuentaAhorro ca5 = new CuentaAhorro(aliem, 601, 45.24, 1.2);
+        if (ca4.equals(ca5)) {
             System.out.println("Son iguales ");
         } else {
             System.out.println("Son distintas ");
