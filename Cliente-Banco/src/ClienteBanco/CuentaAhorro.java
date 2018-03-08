@@ -18,8 +18,8 @@ public class CuentaAhorro extends CuentaCorriente {
         super(cuenta, nroCuenta);
     }
 
-    public void setInteres(double inte) {
-        this.interes = inte;
+    public void setInteres(double interes) {
+        this.interes = interes;
     }
 
     public double getInteres() {
