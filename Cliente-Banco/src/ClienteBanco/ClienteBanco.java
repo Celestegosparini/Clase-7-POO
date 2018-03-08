@@ -35,6 +35,11 @@ public class ClienteBanco {
         System.out.println(ca2.toString());
         System.out.println(ca3.toString());
         System.out.println(ca4.toString());
-    }
 
+        if (cc1.equals(cc2)) {
+            System.out.println("Son iguales ");
+        } else {
+            System.out.println("Son distintas ");
+        }
+    }
 }
