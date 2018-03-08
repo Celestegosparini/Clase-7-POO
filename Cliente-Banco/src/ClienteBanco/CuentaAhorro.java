@@ -26,13 +26,12 @@ public class CuentaAhorro extends CuentaCorriente {
         return this.interes;
     }
 
-      public double calcularIntereses() {
+    public double calcularIntereses() {
         return super.getSaldo() * (1 + this.interes / 100);
     }
 
     public double calcularIntereses(double interes) {
-        super.setSaldo(super.getSaldo()* (1 + interes / 100));
-        return super.getSaldo();
+        return super.getSaldo() * (1 + interes / 100);
     }
 
 }
